@@ -9,5 +9,3 @@ Följande curl requests kan användas för att testa REST-webbtjänsten:
 * __POST:__ curl -i -X POST -d '{"country": "Sverige", "city": "Sundsvall", "date": "2019-12-27 - 2020-01-03", "description": "En fin stad.", "image": "sundsvall.jpg"}' http://localhost:3001/api/travels/add
 * __PUT:__ curl -i -X PUT -d '{"country": "Sverige", "city": "Sundsvall", "date": "2019-12-27 - 2020-01-06", "description": "En fin stad.", "image": "sundsvall.jpg"}' http://localhost:3001/api/travels/update/VALT_ID
 * __DELETE:__ curl -i -X DELETE http://localhost:3001/api/travels/delete/VALT_ID
-
-Demonstration av uppgiften hittas här:
