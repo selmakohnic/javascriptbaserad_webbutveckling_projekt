@@ -36,7 +36,7 @@ travelApp.get("/api/travels", function (req, res) {
             res.send(err);
         }
         res.json(Travels);
-    });
+    }).sort([['date', -1]]);
 });
 
 //Skickar en resa baserat på id
